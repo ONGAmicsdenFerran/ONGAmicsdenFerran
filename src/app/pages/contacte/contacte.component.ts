@@ -11,5 +11,5 @@ import {HeaderComponent} from "../../shared/components/header/header.component";
   styleUrl: './contacte.component.scss'
 })
 export class ContacteComponent {
-
+  title = "Contacte"
 }

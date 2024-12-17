@@ -11,5 +11,5 @@ import {HeaderComponent} from "../../shared/components/header/header.component";
   styleUrl: './collabora.component.scss'
 })
 export class CollaboraComponent {
-
+  title = "Col·labora"
 }

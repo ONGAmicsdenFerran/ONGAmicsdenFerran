@@ -11,5 +11,5 @@ import {HeaderComponent} from "../../shared/components/header/header.component";
   styleUrl: './quiesenferran.component.scss'
 })
 export class QuiesenferranComponent {
-
+  title = "Qui és en Ferran"
 }
