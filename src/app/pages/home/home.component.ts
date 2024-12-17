@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import {RouterModule} from "@angular/router";
 import {HeaderComponent} from "../../shared/components/header/header.component";
+import {MenuComponent} from "../../shared/components/menu/menu.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
     RouterModule,
-    HeaderComponent
+    HeaderComponent,
+    MenuComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
