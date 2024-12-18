@@ -92,6 +92,13 @@ h2 {
   border-radius: 8px;
 }
 
+body {
+  position: relative;
+  min-height: 100vh;
+  display: block;
+  margin: 0;
+}
+
 @media (max-width: 768px) {
   .video-container {
     max-width: 100%;
