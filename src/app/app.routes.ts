@@ -25,6 +25,7 @@ import {Activitat20240602Component} from "./pages/activitats/activitat20240602/a
 import {
   Activitatcolonies20212022Component
 } from "./pages/activitats/activitatcolonies20212022/activitatcolonies20212022.component";
+import {Activitat20220209Component} from "./pages/activitats/activitat20220209/activitat20220209.component";
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -37,7 +38,7 @@ export const routes: Routes = [
   { path: 'aboutus', component: AboutusComponent },
 
   { path: 'activitat20211120', component: Activitat20211120Component },
-  { path: 'activitat20220209', component: Activitat20220402Component },
+  { path: 'activitat20220209', component: Activitat20220209Component },
   { path: 'activitat20220402', component: Activitat20220402Component },
   { path: 'activitat20220507', component: Activitat20220507Component },
   { path: 'activitat20220528', component: Activitat20220528Component },
