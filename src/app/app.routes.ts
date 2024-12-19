@@ -4,7 +4,6 @@ import {AboutusComponent} from "./pages/aboutus/aboutus.component";
 import {ActivitatsComponent} from "./pages/activitats/activitats.component";
 import {ContacteComponent} from "./pages/contacte/contacte.component";
 import {ElprojecteComponent} from "./pages/elprojecte/elprojecte.component";
-import {GaleriaComponent} from "./pages/galeria/galeria.component";
 import {QuiesenferranComponent} from "./pages/quiesenferran/quiesenferran.component";
 import {Activitat20211120Component} from "./pages/activitats/activitat20211120/activitat20211120.component";
 import {Activitat20220402Component} from "./pages/activitats/activitat20220402/activitat20220402.component";
