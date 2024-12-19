@@ -43,15 +43,6 @@
   display: none;
 }
 
-.menu-button {
-  color: #333333;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-  padding: 10px 15px;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
 .menu-dropdown {
   display: none;
   flex-direction: column;
@@ -102,10 +93,10 @@
     background-color: transparent;
     color: #333333;
     padding: 10px 15px;
-    border-radius: 10px;
+    border: none;
     font-size: 16px;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+    box-shadow: none;
     outline: none;
   }
 
