@@ -55,6 +55,7 @@ export const routes: Routes = [
   { path: 'activitat20240413', component: Activitat20240413Component },
   { path: 'activitat20240525', component: Activitat20240525Component },
   { path: 'activitat20240602', component: Activitat20240602Component },
+
   { path: 'activitatcolonies20212022', component: Activitatcolonies20212022Component },
 
   { path: '**/*', redirectTo: 'home'}
