@@ -1,19 +1,19 @@
 import { Component } from '@angular/core';
-import {HeaderComponent} from "../../shared/components/header/header.component";
 import {FooterComponent} from "../../shared/components/footer/footer.component";
+import {HeaderComponent} from "../../shared/components/header/header.component";
 import {RouterLink} from "@angular/router";
 
 @Component({
-  selector: 'app-galeria',
+  selector: 'app-colonies',
   standalone: true,
     imports: [
-        HeaderComponent,
         FooterComponent,
+        HeaderComponent,
         RouterLink
     ],
-  templateUrl: './galeria.component.html',
-  styleUrl: './galeria.component.scss'
+  templateUrl: './colonies.component.html',
+  styleUrl: './colonies.component.scss'
 })
-export class GaleriaComponent {
-  title = "Galeria"
+export class ColoniesComponent {
+  title = "Colònies"
 }

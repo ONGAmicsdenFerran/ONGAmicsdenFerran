@@ -24,16 +24,17 @@ import {Activitat20240525Component} from "./pages/activitats/activitat20240525/a
 import {Activitat20240602Component} from "./pages/activitats/activitat20240602/activitat20240602.component";
 import {
   Activitatcolonies20212022Component
-} from "./pages/activitats/activitatcolonies20212022/activitatcolonies20212022.component";
+} from "./pages/colonies/activitatcolonies20212022/activitatcolonies20212022.component";
 import {Activitat20220209Component} from "./pages/activitats/activitat20220209/activitat20220209.component";
+import {ColoniesComponent} from "./pages/colonies/colonies.component";
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'elprojecte', component: ElprojecteComponent },
-  { path: 'activitats', component: ActivitatsComponent },
+  { path: 'colonies', component: ColoniesComponent },
   { path: 'quiesenferran', component: QuiesenferranComponent },
-  { path: 'galeria', component: GaleriaComponent },
+  { path: 'activitats', component: ActivitatsComponent },
   { path: 'contacte', component: ContacteComponent },
   { path: 'aboutus', component: AboutusComponent },
 
