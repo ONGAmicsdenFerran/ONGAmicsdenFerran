@@ -13,5 +13,5 @@ import {HeaderComponent} from "../../../shared/components/header/header.componen
   styleUrl: './activitat20251010.component.scss'
 })
 export class Activitat20251010Component {
-  title = "Sam Sam Festival"
+  title = "Sam Sam Festival 2025"
 }
