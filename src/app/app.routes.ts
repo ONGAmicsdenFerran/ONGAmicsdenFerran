@@ -29,6 +29,7 @@ import {ColoniesComponent} from "./pages/colonies/colonies.component";
 import {Activitat20250322Component} from "./pages/activitats/activitat20250322/activitat20250322.component";
 import {Activitat20250601Component} from "./pages/activitats/activitat20250601/activitat20250601.component";
 import {Activitat20250910Component} from "./pages/activitats/activitat20250910/activitat20250910.component";
+import {Activitat20251010Component} from "./pages/activitats/activitat20251010/activitat20251010.component";
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -60,6 +61,7 @@ export const routes: Routes = [
   { path: 'activitat20250322', component: Activitat20250322Component },
   { path: 'activitat20250601', component: Activitat20250601Component },
   { path: 'activitat20250910', component: Activitat20250910Component },
+  { path: 'activitat20251010', component: Activitat20251010Component },
 
   { path: 'activitatcolonies20212022', component: Activitatcolonies20212022Component },
 
