@@ -39,10 +39,15 @@ h1 {
   font-size: 2em;
 }
 
-h2 {
+h2, h3 {
   text-align: center;
   color: #af7010;
   margin-top: 0;
+}
+
+h3 {
+  text-decoration: underline;
+  text-decoration-color: #af7010;
 }
 
 .tabla-3-columnas {
